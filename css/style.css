@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#rotate{
+    width: 104px;
+    overflow: hidden;
+    display: block;
+    transform: rotate(20deg);
+    padding: 4px 0;
+    float: left;
+    margin-top: 38px; 
+}
+img{
+    width: 100px;
+    
+}
+.animate {
+    animation-name: girando;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+     animation-timing-function: linear;
+ }
+ @keyframes girando {
+    from {
+     transform: rotate(0deg);
+   }
+   to {
+     transform: rotate(360deg);
+   }
+ }
+
+span img{
+    width: 57px;
+    margin-left: 14px;
+}
+h1{
+    font-size: 17px;
+    color: white;
+    display: block;
+    float: left;
+}
+#cons{
+    display: block;
+    margin: auto;
+    background-color: #315694;
+    width: 247px;
+    text-align: center;
+    padding-bottom: 1px;
+}
+#cont{
+    width: 271px;
+    display: block;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 170px;
+    padding-left: 18px;
+    border-radius: 147px;
+    height: 274px;
+    background-color: #315694;
+    
+}
+.logo{
+    display: block;
+    width: 120px;
+    overflow: hidden;
+    float: left;
+    margin-top: 108px;
+}
+.logo img{
+    width: 120px;
+}
